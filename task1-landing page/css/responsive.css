@@ -1,0 +1,79 @@
+@media screen and (max-width:900px){
+    .navimg{
+        display: none;
+    }
+    .log{
+        display: none;
+    }
+    .grid{
+        grid-template-columns: auto;
+        background-color: transparent;
+    }
+    .sec{
+        height: 150vh;
+        overflow: hidden;
+    }
+    header{
+        height: 150px;
+        flex-direction: column;
+    }
+    .title{
+        margin: auto;
+    }
+    .c{
+        color: white;
+    }
+    .txt2 p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   
+
+    nav{
+        display: flex;
+  padding-left: 39px;
+  justify-content: center;
+    }
+    .title h1{
+        padding-left: 5px;
+    }
+    .txt h2{
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width:430px){
+   
+    .log{
+        display: none;
+    }
+   nav{
+    display: flex;
+  padding-left: 100px;
+  justify-content: center;
+   }
+   .sec {
+    background: linear-gradient(0deg, rgb(218, 61, 61) 20%,rgb(220, 80, 94)35%, rgb(73, 159, 56) 56%, rgb(47, 174, 8) 70%,rgb(66, 156, 220) 85%,rgb(31, 28, 228) 100%);
+  }
+   .g img{
+    width:290px;
+   }
+   .sec{
+    height: 150vh;
+    overflow: hidden;
+}
+.title h1 a{
+    right: 10px;
+}
+    
+    .title h1{
+        padding-left: 5px;
+    }
+    .txt h2{
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width: 350px) {
+    nav ul li{
+        padding-right: 80px;
+    }
+}
